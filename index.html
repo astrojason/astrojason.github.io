@@ -2,7 +2,7 @@
 layout: default
 title: Jason Sylvester
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Jason!</h1>
-	<p>I am getting Jekyll up and running</p>
-</div><!-- /.blurb -->
+
+{% assign post = site.posts.first %}
+{% assign content = post.content %}
+{% include post_detail.html %}
