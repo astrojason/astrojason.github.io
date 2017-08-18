@@ -1,2 +1,11 @@
-name: Jason Sylvester
+name: AstroBlog
 markdown: kramdown
+
+defaults:
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "default"
+    author: "Jason"
+
