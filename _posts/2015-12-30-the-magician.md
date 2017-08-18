@@ -2,6 +2,7 @@
 layout: post
 title: "The Magician"
 date: 2015-12-30
+author: Jason
 ---
 
 "And now, ladies and gentlemen, for the grand finale... my final trick."

@@ -35,7 +35,16 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				{{ content }}
+        <div class="col-sm-9">
+          {{ content }}
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-unstyled">
+            {% for post in site.posts limit:5 %}
+              <li><a href="{{ post.id }}">{{ post.title }} <small>{{ post.date | date: "%m/%d/%Y" }}</small></a></li>
+            {% endfor %}
+          </ul>
+        </div>
 			</div>
 		</div><!-- /.container -->
 		<footer class="blog-footer">

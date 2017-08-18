@@ -5,7 +5,7 @@ layout: default
 {% for post in site.posts limit:1 %}
 	<div class="blog-post">
 		<h2 class="blog-post-title">{{ post.title }}</h2>
-		<p class="blog-post-meta">{{ post.date | date_to_string }} by <strong>{{ post.author }}</strong></p>
+		<p class="blog-post-meta">{{ post.date | date: "%A, %B %-d, %Y" }} by <strong>{{ post.author }}</strong></p>
 		{{ post.content }}
 	</div>
 {% endfor %}

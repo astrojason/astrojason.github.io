@@ -4,6 +4,6 @@ layout: default
 
 <div class="blog-post">
   <h2 class="blog-post-title">{{ page.title }}</h2>
-  <p class="blog-post-meta">{{ page.date | date_to_string }} by <strong>{{ page.author }}</strong></p>
+  <p class="blog-post-meta">{{ page.date | date: "%A, %B %-d, %Y" }} by <strong>{{ page.author }}</strong></p>
   {{ content }}
 </div>
