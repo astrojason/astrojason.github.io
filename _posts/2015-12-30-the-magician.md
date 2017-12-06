@@ -23,7 +23,7 @@ Her wardrobe change complete, his assistant strode in from offstage her long hai
 
 She had been beautiful once, very beautiful. In his early days The Magician had been able to hide the weaknesses of his technique because all eyes were on her. His technique improved as their years together took their toll. She was just as scarred as him, but her skin was still flawless.
 
-She never anger at The Magician show to the audience, but he knew. Just as he knew right now how terrified she was.
+She never let her anger at The Magician show to the audience, but he knew. Just as he knew right now how terrified she was.
 
 He faced the crowd. Let them look at the scars on his face, let them see what had happened the last time he had done this trick. Let them start to fear.
 
